@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+.header, .main-content, .footer{
+    text-align: center;
+    padding: 20px;
+}
+.header{
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+}
+.header h1{
+    color: #333;
+    text-align: justify;
+}
+.header p{
+    color: #666;
+}
+.login button{
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(79, 26, 179);
+    border: none;
+    border-radius: 5px;
+}
+.sign-up button{
+    padding: 10px 20px;
+    background-color: rgb(79, 26, 179);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.free button{
+    padding: 10px 107px;
+    background-color: rgb(79, 26, 179);
+    color: #fff;
+    font-size: large;
+    border-radius: 42px;
+    align-items: justify;
+
+}
+.upper.right .glass {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content{
+    padding: 40px 20px;
+}
+.content h2{
+    color: #000000;
+    
+}
+.content p{
+    color: #0e0d0d;
+    max-width: 600px;
+    margin: auto;
+}
+.header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.glass{
+    display: flex;
+    position: relative;
+    right: -30rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -3rem;
+}
+.right-side{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    list-style: none;
+    position: relative;
+    left: 30rem;
+}
